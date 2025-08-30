@@ -44,15 +44,14 @@ Example messages:
     </message>
     -->
     <message>
-        <deadline>240</deadline>
-        <shutdown>1</shutdown>
-        <text>Server will restart in #tmin minutes.</text>
-    </message>
-    <message>
         <delay>1</delay>
-        <repeat>15</repeat>
+        <repeat>5</repeat>
         <onconnect>1</onconnect>
         <text>#name</text>
     </message>
-
+    <message>
+        <deadline>120</deadline>
+        <shutdown>1</shutdown>
+        <text>Server will restart in #tmin minutes.</text>
+    </message>
 </messages>
